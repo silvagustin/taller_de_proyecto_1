@@ -59,7 +59,7 @@
 # |              | ia64          |                |              | ciaa_sim_ia64 |
 # +--------------+---------------+----------------+--------------+---------------+
 # | cortexM4     | lpc43xx       | lpc4337        | gcc          | edu_ciaa_nxp  |
-# |              |               |                |              | ciaa_nxp      |
+# |              |               |ï¿½               |              | ciaa_nxp      |
 # |              | k60_120       | mk60fx512vlq15 | gcc          | ciaa_fsl      |
 # +--------------+---------------+----------------+--------------+---------------+
 # | mips         | pic32         | pic32mz        | gcc          | ciaa_pic      |
@@ -91,5 +91,5 @@ BOARD          ?= edu_ciaa_nxp
 # examples/blinking_lwip             (blinking and tcp echo using lwip)
 # examples/rtos_example              (example using rtos)
 #
-PROJECT_PATH ?= projectos$(DS)poncho
+PROJECT_PATH ?= proyectos$(DS)poncho
 
