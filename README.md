@@ -1,6 +1,7 @@
 # Proyecto: Control para una matriz de LEDs
 
-### Palabras clave: EDU CIAA-NXP, CIAA, poncho, shield, matriz de leds 8x8, LCD 1602,LCD 16x02, teclado matricial.
+### Palabras clave:
+- EDU CIAA-NXP, CIAA, poncho, shield, matriz de leds 8x8, LCD 1602,LCD 16x02, teclado matricial.
 
 ### Interfaces:
 - LCD 16x02
