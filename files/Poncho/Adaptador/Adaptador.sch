@@ -29,13 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Adaptador-cache
-EELAYER 25 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
+Date "20 feb 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -87,36 +87,6 @@ F 3 "" H 3350 3300 50  0000 C CNN
 	1    3350 3300
 	0    1    1    0   
 $EndComp
-NoConn ~ 2050 2650
-NoConn ~ 3400 2650
-NoConn ~ 3400 2700
-NoConn ~ 2250 2700
-NoConn ~ 2250 2650
-NoConn ~ 3200 2600
-NoConn ~ 3200 2650
-NoConn ~ 3200 2700
-NoConn ~ 3200 2750
-NoConn ~ 3000 2900
-NoConn ~ 3400 2500
-NoConn ~ 3200 2500
-NoConn ~ 3100 2500
-NoConn ~ 2650 2650
-NoConn ~ 2650 2700
-NoConn ~ 2650 2750
-NoConn ~ 2450 2650
-NoConn ~ 2450 2700
-NoConn ~ 2450 2750
-NoConn ~ 3200 2350
-NoConn ~ 3100 2350
-NoConn ~ 2450 2350
-NoConn ~ 2350 2650
-NoConn ~ 2350 2700
-NoConn ~ 2350 2750
-NoConn ~ 2050 2850
-NoConn ~ 2150 2700
-NoConn ~ 2150 2650
-NoConn ~ 2250 2500
-NoConn ~ 1850 2750
 Wire Wire Line
 	3400 2250 3400 2550
 Wire Wire Line
@@ -245,8 +215,4 @@ Wire Wire Line
 	1650 2400 1650 3100
 Wire Wire Line
 	1650 3100 1750 3100
-NoConn ~ 2050 2400
-NoConn ~ 1950 2400
-NoConn ~ 1850 2400
-NoConn ~ 1750 2400
 $EndSCHEMATC

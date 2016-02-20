@@ -32,13 +32,13 @@ LIBS:valves
 LIBS:bitmap
 LIBS:bitmap2
 LIBS:Poncho-cache
-EELAYER 25 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "noname.sch"
-Date "2 dec 2015"
+Date "20 feb 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -134,37 +134,6 @@ F 3 "~" H 1900 2750 60  0000 C CNN
 	1    1900 2750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9050 4450
-NoConn ~ 9300 4450
-NoConn ~ 9400 4450
-NoConn ~ 9500 4450
-NoConn ~ 9500 4600
-NoConn ~ 9400 4600
-NoConn ~ 9300 4600
-NoConn ~ 2950 2800
-NoConn ~ 2650 2600
-NoConn ~ 3050 2800
-NoConn ~ 3500 2700
-NoConn ~ 3400 2600
-NoConn ~ 3400 2500
-NoConn ~ 3250 2500
-NoConn ~ 3500 2500
-NoConn ~ 3500 2600
-NoConn ~ 3500 2800
-NoConn ~ 2800 3100
-NoConn ~ 2800 3300
-NoConn ~ 10450 4450
-NoConn ~ 10700 4450
-NoConn ~ 10800 4450
-NoConn ~ 10900 4450
-NoConn ~ 9450 3100
-NoConn ~ 9350 3100
-NoConn ~ 9250 3100
-NoConn ~ 9150 3100
-NoConn ~ 9050 3100
-NoConn ~ 8950 3100
-NoConn ~ 8850 3100
-NoConn ~ 8750 3100
 $Comp
 L R-RESCUE-Poncho R9
 U 1 1 562FFFD4
@@ -347,9 +316,6 @@ NoConn ~ 6700 3750
 NoConn ~ 6700 3650
 NoConn ~ 6700 3550
 NoConn ~ 6700 3450
-NoConn ~ 2900 3400
-NoConn ~ 2900 3500
-NoConn ~ 2900 3600
 NoConn ~ 2900 3700
 NoConn ~ 2900 3800
 NoConn ~ 2900 3900
@@ -364,7 +330,6 @@ NoConn ~ 3700 3600
 NoConn ~ 3700 3500
 NoConn ~ 3700 3400
 NoConn ~ 3700 3300
-NoConn ~ 2900 3200
 NoConn ~ 2900 5000
 NoConn ~ 2900 4700
 NoConn ~ 2900 4600
@@ -515,14 +480,6 @@ NoConn ~ 5500 4850
 NoConn ~ 5500 4550
 NoConn ~ 5500 4250
 NoConn ~ 6700 4450
-NoConn ~ 3900 3200
-NoConn ~ 4000 3200
-NoConn ~ 4100 3200
-NoConn ~ 4200 3200
-NoConn ~ 4300 3200
-NoConn ~ 2700 3300
-NoConn ~ 2700 3100
-NoConn ~ 8750 4600
 Wire Wire Line
 	9700 3100 9700 3800
 Wire Wire Line
@@ -1024,21 +981,10 @@ Wire Wire Line
 	7000 4750 7000 3350
 Wire Wire Line
 	7000 3350 6700 3350
-NoConn ~ 9500 4750
-NoConn ~ 9400 4750
-NoConn ~ 9300 4750
-NoConn ~ 8750 4750
 Connection ~ 7100 3100
-NoConn ~ 3900 3100
-NoConn ~ 4000 3100
-NoConn ~ 4100 3100
-NoConn ~ 4200 3100
-NoConn ~ 4300 3100
-NoConn ~ 5650 3100
 Wire Wire Line
 	1650 2500 1650 4400
 Connection ~ 2700 4400
-NoConn ~ 1650 3300
 Wire Wire Line
 	8750 6250 8750 4450
 Wire Wire Line
@@ -1053,17 +999,6 @@ Wire Wire Line
 	4500 4000 3700 4000
 Connection ~ 3700 4000
 Connection ~ 8750 4350
-NoConn ~ 8450 4350
-NoConn ~ 8200 4350
-NoConn ~ 7250 3100
-NoConn ~ 5650 2850
-NoConn ~ 4500 3100
-NoConn ~ 4500 3200
-NoConn ~ 3900 4000
-NoConn ~ 4000 4000
-NoConn ~ 4100 4000
-NoConn ~ 4200 4000
-NoConn ~ 4300 4000
 Wire Wire Line
 	10150 4350 10150 6350
 Wire Wire Line
@@ -1073,19 +1008,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 4800 2900 4800
 Connection ~ 2900 4800
-NoConn ~ 10150 4450
-NoConn ~ 10150 4600
-NoConn ~ 10150 4750
-NoConn ~ 10150 5950
-NoConn ~ 10150 6050
-NoConn ~ 10150 6150
-NoConn ~ 8750 6150
-NoConn ~ 8750 6050
-NoConn ~ 8750 5950
-NoConn ~ 8750 5850
-NoConn ~ 8750 5750
-NoConn ~ 8750 5650
-NoConn ~ 2900 6150
 Connection ~ 10150 4350
 Wire Wire Line
 	5900 5050 5800 5050
@@ -1187,4 +1109,8 @@ F 3 "" H 1650 4400 60  0000 C CNN
 	1    1650 4400
 	1    0    0    -1  
 $EndComp
+NoConn ~ 2900 3200
+NoConn ~ 2900 3400
+NoConn ~ 2900 3500
+NoConn ~ 2900 3600
 $EndSCHEMATC
